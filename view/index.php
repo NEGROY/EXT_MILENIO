@@ -17,7 +17,18 @@
 
   <body class="dark">
     <?php require '../include/menu/menu1.php'; ?>
+  <br>
+    <div class="container" id='frame'>
 
+      <div class="card crdbody">
+      <div class="card-header text-info"><h4> VENTANA DE PRUEBAA </h4></div>
+      <div class="card-body">
+        <div class="row crdbody">
+          <div class="col-5"> <div class="input-group">
+          </div></div>
+        </div>
+      </div> </div> <!-- Ingreso de Caja FINAL -->
+    </div>
   </body>
 
   </html>
