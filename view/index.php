@@ -17,7 +17,7 @@ include_once './ventana.php'
 </head>
 
 <body class="dark">
-  <?php require '../include/menu/menu1.php'; ?>
+  <?php // require '../include/menu/menu1.php'; ?>
   <br>
   <div class="container" id="frame">
     <h1>ORDEN DE COMPRA</h1>
@@ -26,12 +26,12 @@ include_once './ventana.php'
     <div class="card-body">
 
       <div class="row crdbody">
-        <div class="col-md-2"> <div class="input-group">
+        <div class="col-1"> <div class="input-group">
           <span class="input-group-text">Orden</span>
           <input type="text" class="form-control" id="CodigoGrupo"  readonly>
         </div> </div>
 
-        <div class="col-md-3"> <div class="input-group">
+        <div class="col-3"> <div class="input-group">
           <span class="input-group-text"> fecha </span>
           <input type="date" class="form-control" id="NombreGrupo"  required>
         </div> </div>
@@ -122,7 +122,7 @@ include_once './ventana.php'
     <div class="card-body">
       
       <div class="row crdbody">
-        <div class="col-1"> 
+        <div class="col-2"> 
           <span class="input-group-text"> Línea </span>
           <input type="text" class="form-control" id="CodigoGrupo"  readonly>
         </div>  
